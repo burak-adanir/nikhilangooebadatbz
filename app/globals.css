@@ -43,7 +43,7 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold;
 }
 
 .hero__subtitle {
@@ -193,6 +193,10 @@
 
 .searchbar__item {
   @apply flex-1 max-sm:w-full flex justify-start items-center relative;
+}
+
+.searchbar__input__full {
+  @apply w-full h-[48px] pl-12 p-4 bg-light-white outline-none cursor-pointer text-sm;
 }
 
 .searchbar__input {
